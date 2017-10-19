@@ -1,6 +1,8 @@
 /*
 Use Math.lib and write.func
 */
+
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
@@ -41,9 +43,5 @@ int main(void) {
 	}
 	int new = time((time_t*)NULL);
     printf("%d\n", new - old);
-
-
-
-
 
 }
